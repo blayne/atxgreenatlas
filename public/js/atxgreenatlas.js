@@ -1,8 +1,40 @@
-//attach the leaflet directive to our angular app
-var app = angular.module("atxgreenatlas", ['leaflet-directive']);
+String.prototype.format = function()
+{
+   var content = this;
+   for (var i=0; i < arguments.length; i++)
+   {
+        var replacement = '{' + i + '}';
+        content = content.replace(replacement, arguments[i]);  
+   }
+   return content;
+};
+
+//attach the leaflet  and modal service to our angular app
+var app = angular.module("atxgreenatlas", ['leaflet-directive', 'angularModalService', 'ngSanitize']);
 
 //create our map controller for leaflet with the http service attached
-app.controller("map-canvas", [ "$scope","$http", function($scope, $http) {
+app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope, $http, ModalService) {
+
+    $scope.$on('leafletDirectiveMarker.click', function (e, args) {
+        if(args.layerName == 'water_quality'){
+            ModalService.showModal({
+            templateUrl: "modal.html",
+            controller: "ModalController",
+            inputs: {
+                head: args.model.message,
+                data: args.model.data
+              }
+             }).then(function(modal) {
+
+               //it's a bootstrap element, use 'modal' to show it
+               modal.element.modal();
+               modal.close.then(function(result) {
+                 console.log(result);
+             });
+          });
+        }
+    });
+
     angular.extend($scope, {
         //map centered on Austin, TX
         austin: {
@@ -17,7 +49,7 @@ app.controller("map-canvas", [ "$scope","$http", function($scope, $http) {
                     name: 'Google Streets',
                     layerType: 'ROADMAP',
                     type: 'google'
-                },
+                }/* disabled to speed up map loading,
                 googleHybrid: {
                     name: 'Google Hybrid',
                     layerType: 'HYBRID',
@@ -27,7 +59,7 @@ app.controller("map-canvas", [ "$scope","$http", function($scope, $http) {
                     name: 'Google Terrain',
                     layerType: 'TERRAIN',
                     type: 'google'
-                }
+                }*/
             },
             //data set layers in group or cluster forms
             overlays: {
@@ -54,9 +86,11 @@ app.controller("map-canvas", [ "$scope","$http", function($scope, $http) {
                 position: 'topleft'
             }
         }
+
     });
 
     //parsed dataset for the Recycling Centers layer
+    
     $http.get('data/recyclingOut.json') 
        .success(function(data, status){
            	angular.forEach(data, function(value, key) {
@@ -71,6 +105,8 @@ app.controller("map-canvas", [ "$scope","$http", function($scope, $http) {
                 $scope.markers[key] = value;
             })
         });
+
+        
 
     //parsed dataset for the Water Quality Results layer
     $http.get('data/waterQualityOut.json') 
@@ -103,6 +139,7 @@ app.controller("map-canvas", [ "$scope","$http", function($scope, $http) {
             }
         });
     */
+
 
     //GeoJSON (polygon) for all contribution zones to the edwards aquifer
     //parse as boolean in zip code search
@@ -165,4 +202,24 @@ app.controller("map-canvas", [ "$scope","$http", function($scope, $http) {
                 }
             }
         });
+
+        
 }]);
+
+app.controller('ModalController', function($scope, head, data, close) {
+    var htmlTableData = '<table class="table table-striped"><thead><tr><th>Date</th><th>Site</th><th>Medium</th><th>Measurment</th><th>Parameter</th><th>Value</th><th>Units</th></tr></thead><tbody>';
+
+    angular.forEach(data, function(value) {
+        htmlTableData += "<tr><td>{0}</td><td>{1}</td><td>{2}</td><td>{3}</td><td>{4}</td><td>{5}</td><td>{6}</td></tr>".format(value[9], value[11], value[12], value[13],value[14], value[16], value[17]);
+    });
+
+    htmlTableData += '</tbody></table>';
+
+
+    $scope.head = head;
+    $scope.data = htmlTableData;
+    $scope.close = function() {
+        close("modal closed", 500); // close, but give 500ms for bootstrap to animate
+    };
+
+});

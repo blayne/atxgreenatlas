@@ -4,6 +4,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ATX Green Atlas</title>
 
+  <!-- Angular JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://getbootstrap.com/dist/css/bootstrap.css">  
+  <script src="https://code.angularjs.org/1.4.9/angular.min.js"></script>
+
+
 	<!-- Leaflet JS -->
   <script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css">
@@ -15,15 +22,8 @@
   <link rel="stylesheet" type="text/css" href="./css/leaflet.awesome-markers.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
-  <!-- Angular JS -->
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
-
   <!-- Angular Leaflet Directives -->
   <script src="./js/angular-leaflet-directive.js"></script>
-
-  <!-- Project Source -->
-  <script src="./js/atxgreenatlas.js"></script>
-  <link rel="stylesheet" type="text/css" href="./css/atxgreenatlas.css">
 
   <!-- Google Maps overlay -->
   <script src="http://maps.google.com/maps/api/js?v=3"></script>
@@ -33,6 +33,33 @@
   <script src='./js/leaflet.markercluster-src.js'></script>
   <link rel="stylesheet" type="text/css" href="./css/MarkerCluster.css">
   <link rel="stylesheet" type="text/css" href="./css/MarkerCluster.Default.css">
+
+  <!-- Angular Modal Directive -->
+  <script src="https://rawgit.com/dwmkerr/angular-modal-service/master/dst/angular-modal-service.js"></script>
+
+  <!-- String to HTML filter -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-sanitize.min.js"></script>
+
+  <script type="text/ng-template" id="modal.html">
+    <div class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 ng-bind-html = "head"></h3>
+          </div>
+          <div ng-bind-html="data" class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" ng-click="close()" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <!-- Project Source -->
+  <script src="./js/atxgreenatlas.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/atxgreenatlas.css">
+
   </head>
 
   <body ng-controller="map-canvas">
