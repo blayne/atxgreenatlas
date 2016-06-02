@@ -11,4 +11,8 @@ We will also be providing a lookup function by zipcode, so after entering your z
 Once again, I'd like to highlight the intended audience for this application, also stated below. We envision this being used by perspective Austin residents to gain insight into the positive and negative aspects of their new dwellings. Our second intended audience is Austin city members and city council, whom, in accordance with Mayor Adler's Smart City proposal, need more new data and centralized analytics on environmental areas of concern in Austin.  "
 
 ## Technologies
-We are leveraging [AngularJS with a LeafletJS directive](https://github.com/tombatossals/angular-leaflet-directive.git) and [NodeJS](https://nodejs.org/en/) to deliver our JSON data. 
+We are leveraging [AngularJS](https://angularjs.org/) with a [LeafletJS directive](https://github.com/tombatossals/angular-leaflet-directive.git) and [NodeJS](https://nodejs.org/en/).
+
+NodeJS is used as a web server to deliver all the static assets, like json data, html, and javascript. We also used NodeJS to parse the raw data and form it per-zipcode. 
+
+Python was used to parse raw json datasets and create leaflet compatible objects.
