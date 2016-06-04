@@ -19,7 +19,41 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
         if(args.layerName == 'water_quality'){
             ModalService.showModal({
             templateUrl: "modal.html",
-            controller: "ModalController",
+            controller: "WQModalController",
+            inputs: {
+                head: args.model.message,
+                data: args.model.data
+              }
+             }).then(function(modal) {
+
+               //it's a bootstrap element, use 'modal' to show it
+               modal.element.modal();
+               modal.close.then(function(result) {
+                 console.log(result);
+             });
+          });
+        }
+        if(args.layerName == 'air_quality'){
+            ModalService.showModal({
+            templateUrl: "modal.html",
+            controller: "AQModalController",
+            inputs: {
+                head: args.model.message,
+                data: args.model.data
+              }
+             }).then(function(modal) {
+
+               //it's a bootstrap element, use 'modal' to show it
+               modal.element.modal();
+               modal.close.then(function(result) {
+                 console.log(result);
+             });
+          });
+        }
+        if(args.layerName == 'greenhouse_gas'){
+            ModalService.showModal({
+            templateUrl: "modal.html",
+            controller: "GGModalController",
             inputs: {
                 head: args.model.message,
                 data: args.model.data
@@ -73,24 +107,34 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
                     type: 'markercluster',
                     visible: false
                 },
+                air_quality : {
+                    name: 'Austin Air Quality Results',
+                    type: 'group',
+                    visible: false
+                },
+                greenhouse_gas : {
+                    name: 'Austin Greenhouse Gas Emissions',
+                    type: 'markercluster',
+                    visible: false
+                },
                 zips: {
-                    name: 'Zipcodes',
+                    name: 'Zip codes',
                     type: 'group',
                     visible: false
                 },
                 solid_waste: {
                     name: 'Solid Waste Sites',
-                    type: 'markercluster',
+                    type: 'group',
                     visible: false
                 },
                 rainGardens : {
                     name: 'Austin Rain Gardens',
-                    type: 'markercluster',
+                    type: 'group',
                     visible: false
                 },
                 bicycle : {
                     name: 'B-Cycle stations',
-                    type: 'markercluster',
+                    type: 'group',
                     visible: false
                 }
             }
@@ -130,6 +174,22 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
             })
         });
 
+    //parsed dataset for the Air Quality Results layer
+    $http.get('data/airQualityOut.json') 
+       .success(function(data, status){
+            angular.forEach(data, function(value, key) {
+                $scope.markers[key] = value;
+            })
+        });
+
+    //parsed dataset for the Greenhouse Gas Emissions Results layer
+    $http.get('data/greenHouseOut.json') 
+       .success(function(data, status){
+            angular.forEach(data, function(value, key) {
+                $scope.markers[key] = value;
+            })
+        });
+
     //parsed dataset for the solid wastes (landfills)
     $http.get('data/solidWasteOut.json') 
        .success(function(data, status){
@@ -157,7 +217,7 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
     //GeoJSON (polygon) for all Austin Area parks.
     //Disabled due to accurate Google Maps parks labels.
     //Use in zip-code search only.
-   $http.get("data/parks.geojson")
+    $http.get("data/parks.geojson")
         .success(function(data, status) {
             $scope.layers.overlays['parks'] =   {    
                 name: 'Austin City Parks',
@@ -219,6 +279,7 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
             }
         });
     */
+
     //GeoJSON (polygon) for the zip codes in the greater austin area
     $http.get("data/zipsOut.json")
         .success(function(data, status) {
@@ -229,11 +290,47 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
         
 }]);
 
-app.controller('ModalController', function($scope, head, data, close) {
+app.controller('AQModalController', function($scope, head, data, close) {
+    var htmlTableData = '<table class="table table-striped"><thead><tr><th>Site</th><th>Facility Type</th><th>Measurment</th><th>Value</th><th>Units</th></tr></thead><tbody>';
+
+    angular.forEach(data, function(value) {
+        htmlTableData += "<tr><td>{0}</td><td>{1}</td><td>{2}</td><td>{3}</td><td>{4}</td></tr>".format(value.facility_site_name, value.facility_source_description, value.description, value.total_emissions,value.uom);
+    });
+
+    htmlTableData += '</tbody></table>';
+
+
+    $scope.head = head;
+    $scope.data = htmlTableData;
+    $scope.close = function() {
+        close("modal closed", 500); // close, but give 500ms for bootstrap to animate
+    };
+
+});
+
+app.controller('WQModalController', function($scope, head, data, close) {
     var htmlTableData = '<table class="table table-striped"><thead><tr><th>Date</th><th>Site</th><th>Medium</th><th>Measurment</th><th>Parameter</th><th>Value</th><th>Units</th></tr></thead><tbody>';
 
     angular.forEach(data, function(value) {
         htmlTableData += "<tr><td>{0}</td><td>{1}</td><td>{2}</td><td>{3}</td><td>{4}</td><td>{5}</td><td>{6}</td></tr>".format(value[9], value[11], value[12], value[13],value[14], value[16], value[17]);
+    });
+
+    htmlTableData += '</tbody></table>';
+
+
+    $scope.head = head;
+    $scope.data = htmlTableData;
+    $scope.close = function() {
+        close("modal closed", 500); // close, but give 500ms for bootstrap to animate
+    };
+
+});
+
+app.controller('GGModalController', function($scope, head, data, close) {
+    var htmlTableData = '<table class="table table-striped"><thead><tr><th>Annual GHG per Household</th><th>Annual GHG per Acre</th><th>Units</th></tr></thead><tbody>';
+
+    angular.forEach(data, function(value) {
+        htmlTableData += "<tr><td>{0}</td><td>{1}</td><td>Tonnes</td></tr>".format(value.co2_per_hh_local, value.co2_per_acre_local);
     });
 
     htmlTableData += '</tbody></table>';
