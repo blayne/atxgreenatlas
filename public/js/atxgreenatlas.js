@@ -49,17 +49,12 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
                     name: 'Google Streets',
                     layerType: 'ROADMAP',
                     type: 'google'
-                }/* disabled to speed up map loading,
-                googleHybrid: {
-                    name: 'Google Hybrid',
-                    layerType: 'HYBRID',
-                    type: 'google'
                 },
                 googleTerrain: {
                     name: 'Google Terrain',
                     layerType: 'TERRAIN',
                     type: 'google'
-                }*/
+                }
             },
             //data set layers in group or cluster forms
             overlays: {
@@ -77,10 +72,31 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
                     name: 'Austin Water Quality Results',
                     type: 'markercluster',
                     visible: false
+                },
+                zips: {
+                    name: 'Zipcodes',
+                    type: 'group',
+                    visible: false
+                },
+                solid_waste: {
+                    name: 'Solid Waste Sites',
+                    type: 'markercluster',
+                    visible: false
+                },
+                rainGardens : {
+                    name: 'Austin Rain Gardens',
+                    type: 'markercluster',
+                    visible: false
+                },
+                bicycle : {
+                    name: 'B-Cycle stations',
+                    type: 'markercluster',
+                    visible: false
                 }
             }
         },
         markers: {},
+        paths: {},
         controls: {
             fullscreen: {
                 position: 'topleft'
@@ -106,10 +122,32 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
             })
         });
 
-        
-
     //parsed dataset for the Water Quality Results layer
     $http.get('data/waterQualityOut.json') 
+       .success(function(data, status){
+            angular.forEach(data, function(value, key) {
+                $scope.markers[key] = value;
+            })
+        });
+
+    //parsed dataset for the solid wastes (landfills)
+    $http.get('data/solidWasteOut.json') 
+       .success(function(data, status){
+            angular.forEach(data, function(value, key) {
+                $scope.markers[key] = value;
+            })
+        });
+
+    //parsed dataset for the austin rain gardens
+    $http.get('data/RainGardenOut.json') 
+       .success(function(data, status){
+            angular.forEach(data, function(value, key) {
+                $scope.markers[key] = value;
+            })
+        });
+
+    //parsed dataset for the austin B-Cycle Stations
+    $http.get('data/bikesOut.json') 
        .success(function(data, status){
             angular.forEach(data, function(value, key) {
                 $scope.markers[key] = value;
@@ -119,7 +157,6 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
     //GeoJSON (polygon) for all Austin Area parks.
     //Disabled due to accurate Google Maps parks labels.
     //Use in zip-code search only.
-   /* 
    $http.get("data/parks.geojson")
         .success(function(data, status) {
             $scope.layers.overlays['parks'] =   {    
@@ -138,8 +175,6 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
                 }
             }
         });
-    */
-
 
     //GeoJSON (polygon) for all contribution zones to the edwards aquifer
     //parse as boolean in zip code search
@@ -164,6 +199,7 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
 
     //GeoJSON (polygon) for all watersheds from area rivers
     //parse as boolean in zip code search
+    /*
     $http.get("data/watersheds.geojson")
         .success(function(data, status) {
             $scope.layers.overlays['watersheds'] =   {    
@@ -182,27 +218,14 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
                 }
             }
         });
-
+    */
     //GeoJSON (polygon) for the zip codes in the greater austin area
-    $http.get("data/zips.geojson")
+    $http.get("data/zipsOut.json")
         .success(function(data, status) {
-            $scope.layers.overlays['zips'] =   {    
-                name: 'Greater Austin Area Zipcodes',
-                type: 'geoJSONShape',
-                data: data,
-                visible: false,
-                layerOptions: {
-                    style: {
-                            color: '#000',
-                            fillColor: '#F69',
-                            weight: 1.0,
-                            opacity: 1.0,
-                            fillOpacity: 0.5
-                    }
-                }
-            }
+            angular.forEach(data, function(value, key) {
+                $scope.paths[key] = value;
+            })
         });
-
         
 }]);
 

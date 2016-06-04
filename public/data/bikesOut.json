@@ -1,0 +1,602 @@
+{
+    "bike0": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.285755866845722,
+        "layer": "bicycle",
+        "lng": -97.74179974417794
+    },
+    "bike1": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.28399266229425,
+        "layer": "bicycle",
+        "lng": -97.74197065202151
+    },
+    "bike10": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.269689634432652,
+        "layer": "bicycle",
+        "lng": -97.73077962956287
+    },
+    "bike11": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.26915462193892,
+        "layer": "bicycle",
+        "lng": -97.72844414307627
+    },
+    "bike12": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.26402573748674,
+        "layer": "bicycle",
+        "lng": -97.73278595257949
+    },
+    "bike13": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.26462065838077,
+        "layer": "bicycle",
+        "lng": -97.73048681507916
+    },
+    "bike14": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.262140277849493,
+        "layer": "bicycle",
+        "lng": -97.72739682728297
+    },
+    "bike15": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.259633147473632,
+        "layer": "bicycle",
+        "lng": -97.72314198355602
+    },
+    "bike16": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.260368310624745,
+        "layer": "bicycle",
+        "lng": -97.71900549030191
+    },
+    "bike17": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.259066037621352,
+        "layer": "bicycle",
+        "lng": -97.71489417083158
+    },
+    "bike18": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.256316520285594,
+        "layer": "bicycle",
+        "lng": -97.71009188938434
+    },
+    "bike19": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.255553649052764,
+        "layer": "bicycle",
+        "lng": -97.71667792313035
+    },
+    "bike2": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.280326154960633,
+        "layer": "bicycle",
+        "lng": -97.73811390466489
+    },
+    "bike20": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.26850033811791,
+        "layer": "bicycle",
+        "lng": -97.73650031055531
+    },
+    "bike21": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.26912322969866,
+        "layer": "bicycle",
+        "lng": -97.7398867411375
+    },
+    "bike22": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.269785017243024,
+        "layer": "bicycle",
+        "lng": -97.74182365834035
+    },
+    "bike23": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.267376189404366,
+        "layer": "bicycle",
+        "lng": -97.73931442292412
+    },
+    "bike24": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.26895338323943,
+        "layer": "bicycle",
+        "lng": -97.74520874923505
+    },
+    "bike25": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.270409628790905,
+        "layer": "bicycle",
+        "lng": -97.75043524367736
+    },
+    "bike26": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.26958944325213,
+        "layer": "bicycle",
+        "lng": -97.75334006232457
+    },
+    "bike27": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.2678529167117,
+        "layer": "bicycle",
+        "lng": -97.75177901775919
+    },
+    "bike28": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.267828363672546,
+        "layer": "bicycle",
+        "lng": -97.74681011641104
+    },
+    "bike29": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.264777411417327,
+        "layer": "bicycle",
+        "lng": -97.74676121005285
+    },
+    "bike3": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.279778563253345,
+        "layer": "bicycle",
+        "lng": -97.74251519583352
+    },
+    "bike30": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.266373732467656,
+        "layer": "bicycle",
+        "lng": -97.74386138293637
+    },
+    "bike31": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.264079061144354,
+        "layer": "bicycle",
+        "lng": -97.74353947728842
+    },
+    "bike32": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.264290398572957,
+        "layer": "bicycle",
+        "lng": -97.74025637932273
+    },
+    "bike33": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.264943100229612,
+        "layer": "bicycle",
+        "lng": -97.73919831274722
+    },
+    "bike34": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.26023212838397,
+        "layer": "bicycle",
+        "lng": -97.73849977920905
+    },
+    "bike35": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.25586706053791,
+        "layer": "bicycle",
+        "lng": -97.73993370400005
+    },
+    "bike36": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.267004229864284,
+        "layer": "bicycle",
+        "lng": -97.75473406366477
+    },
+    "bike37": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.264370983754205,
+        "layer": "bicycle",
+        "lng": -97.7562365799053
+    },
+    "bike38": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.262095978038605,
+        "layer": "bicycle",
+        "lng": -97.76119078394922
+    },
+    "bike39": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.264524126535953,
+        "layer": "bicycle",
+        "lng": -97.77133271463939
+    },
+    "bike4": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.276557854816026,
+        "layer": "bicycle",
+        "lng": -97.74164759984261
+    },
+    "bike40": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.259696542852144,
+        "layer": "bicycle",
+        "lng": -97.75349182025083
+    },
+    "bike41": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.258679327330164,
+        "layer": "bicycle",
+        "lng": -97.74877052972991
+    },
+    "bike42": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.259405618281118,
+        "layer": "bicycle",
+        "lng": -97.749732277992
+    },
+    "bike43": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.25112559870354,
+        "layer": "bicycle",
+        "lng": -97.74922893177812
+    },
+    "bike44": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.252373231791275,
+        "layer": "bicycle",
+        "lng": -97.74850543667158
+    },
+    "bike45": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.248961064616584,
+        "layer": "bicycle",
+        "lng": -97.75030000294164
+    },
+    "bike46": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.274655812654732,
+        "layer": "bicycle",
+        "lng": -97.77028250063562
+    },
+    "bike47": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.26588129949889,
+        "layer": "bicycle",
+        "lng": -97.76824829382547
+    },
+    "bike48": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.2675413496377,
+        "layer": "bicycle",
+        "lng": -97.74157508434614
+    },
+    "bike49": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.2600666615836,
+        "layer": "bicycle",
+        "lng": -97.7098921159268
+    },
+    "bike5": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.276026764054127,
+        "layer": "bicycle",
+        "lng": -97.74740859060329
+    },
+    "bike6": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.276483169933726,
+        "layer": "bicycle",
+        "lng": -97.7481621590247
+    },
+    "bike7": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.273430104140573,
+        "layer": "bicycle",
+        "lng": -97.73793098632439
+    },
+    "bike8": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.271959489808662,
+        "layer": "bicycle",
+        "lng": -97.73851488741033
+    },
+    "bike9": {
+        "icon": {
+            "icon": "bicycle",
+            "iconColor": "white",
+            "markerColor": "gray",
+            "prefix": "fa",
+            "type": "awesomeMarker"
+        },
+        "lat": 30.272638161686167,
+        "layer": "bicycle",
+        "lng": -97.74122001812677
+    }
+}

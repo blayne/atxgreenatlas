@@ -1,0 +1,496 @@
+{
+    "solid_waste0": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.31479, 
+        "layer": "solid_waste", 
+        "lng": -97.94843, 
+        "message": "TRAVIS COUNTY TRANSFER STATION<br>  AUSTIN TX  "
+    }, 
+    "solid_waste1": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.33199, 
+        "layer": "solid_waste", 
+        "lng": -97.62316, 
+        "message": "WASTE MANAGEMENT OF TEXAS AUSTIN COMMUNITY RECYCLI<br>9708 GILES RD AUSTIN TX 78754"
+    }, 
+    "solid_waste10": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 29.55694, 
+        "layer": "solid_waste", 
+        "lng": -99.7, 
+        "message": "TEXAS PARKS & WILDLIFE DEPARTMENT<br>4200 SMITH SCHOOL ROAD AUSTIN TX 78744"
+    }, 
+    "solid_waste11": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.23384, 
+        "layer": "solid_waste", 
+        "lng": -97.68116, 
+        "message": "AUSTIN LIQUID DISPOSAL LIQUID WASTE PROCESSING FAC<br>751 BASTROP HWY AUSTIN TX 78746"
+    }, 
+    "solid_waste12": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.26554, 
+        "layer": "solid_waste", 
+        "lng": -97.65732, 
+        "message": "FOREMOST CONSTRUCTION COMPANY INC LANDFILL<br>8400 DELWAU LN AUSTIN TX 78725"
+    }, 
+    "solid_waste13": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.22577, 
+        "layer": "solid_waste", 
+        "lng": -97.68005, 
+        "message": "SB WINGFIELD LANDFILL<br>1111 OLD BASTROP HWY AUSTIN TX 78742"
+    }, 
+    "solid_waste14": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.34259, 
+        "layer": "solid_waste", 
+        "lng": -97.62638, 
+        "message": "SUNSET FARMS LANDFILL<br>9912 GILES RD AUSTIN TX 78754"
+    }, 
+    "solid_waste15": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.15, 
+        "layer": "solid_waste", 
+        "lng": -97.6, 
+        "message": "CITY OF AUSTIN<br>  AUSTIN TX  "
+    }, 
+    "solid_waste16": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.15, 
+        "layer": "solid_waste", 
+        "lng": -97.6, 
+        "message": "CITY OF AUSTIN LANDFILL<br>  AUSTIN TX  "
+    }, 
+    "solid_waste17": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.22577, 
+        "layer": "solid_waste", 
+        "lng": -97.68005, 
+        "message": "HARMON PROPERTIES LANDFILL<br>1111 OLD BASTROP HWY AUSTIN TX 78742"
+    }, 
+    "solid_waste18": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.30987, 
+        "layer": "solid_waste", 
+        "lng": -97.92628, 
+        "message": "AQUATOX TRENCH BURNER FACILITY<br>  AUSTIN TX  "
+    }, 
+    "solid_waste19": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.15863, 
+        "layer": "solid_waste", 
+        "lng": -97.68083, 
+        "message": "TRAVIS COUNTY LANDFILL<br>9600 FM 812 AUSTIN TX 78719"
+    }, 
+    "solid_waste2": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.15579, 
+        "layer": "solid_waste", 
+        "lng": -97.67473, 
+        "message": "CITY OF AUSTIN LANDFILL<br>10108 FM 812 AUSTIN TX 78716"
+    }, 
+    "solid_waste20": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.46954, 
+        "layer": "solid_waste", 
+        "lng": -97.66276, 
+        "message": "AQUATOX TRENCH BURNER FACILITY<br>  AUSTIN TX  "
+    }, 
+    "solid_waste21": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.30593, 
+        "layer": "solid_waste", 
+        "lng": -97.74503, 
+        "message": "SETON MEDICAL CENTER WASTE INCINERATOR<br>1201 W 38TH ST AUSTIN TX 78705"
+    }, 
+    "solid_waste22": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.25311, 
+        "layer": "solid_waste", 
+        "lng": -97.69745, 
+        "message": "LIQUID ENVIRO SOLUTIONS OF TX LP GREASE TRAP WASTE<br>5119 E 7TH ST AUSTIN TX 78702"
+    }, 
+    "solid_waste23": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.2475, 
+        "layer": "solid_waste", 
+        "lng": -97.61767, 
+        "message": "J-V DIRT + LOAM<br>3600 N FM 973 AUSTIN TX 78725"
+    }, 
+    "solid_waste24": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.18586, 
+        "layer": "solid_waste", 
+        "lng": -97.7052, 
+        "message": "AUSTIN LIQUID WASTE TRANSFER STATION<br>4501 SHAW LN AUSTIN TX 78744"
+    }, 
+    "solid_waste25": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.91833, 
+        "layer": "solid_waste", 
+        "lng": -95.37639, 
+        "message": "CITY OF AUSTIN COMPOSTING FACILITY<br>  AUSTIN TX  "
+    }, 
+    "solid_waste26": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.28626, 
+        "layer": "solid_waste", 
+        "lng": -98.06094, 
+        "message": "TRAVIS COUNTY PRECINCT 3 SATELLITE OPERATION RESOU<br>14624 HAMILTON POOL RD AUSTIN TX 78738"
+    }, 
+    "solid_waste27": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.32736, 
+        "layer": "solid_waste", 
+        "lng": -97.62663, 
+        "message": "TRAVIS COUNTY PRECINCT ONE SATELLITE OPERATION RES<br>9301 JOHNNY MORRIS RD AUSTIN TX 78724"
+    }, 
+    "solid_waste28": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.1095, 
+        "layer": "solid_waste", 
+        "lng": -97.75663, 
+        "message": "TEXAS DISPOSAL SYSTEM COMPOST FACILITY<br>3016 FM 1327 AUSTIN TX 78747"
+    }, 
+    "solid_waste29": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.17594, 
+        "layer": "solid_waste", 
+        "lng": -97.83113, 
+        "message": "SUNSET FARMS GAS RECOVERY FACILITY<br>9912 GAIL RD AUSTIN TX 78748"
+    }, 
+    "solid_waste3": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.16583, 
+        "layer": "solid_waste", 
+        "lng": -97.6775, 
+        "message": "CITY OF AUSTIN<br>  AUSTIN TX  "
+    }, 
+    "solid_waste30": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.32898, 
+        "layer": "solid_waste", 
+        "lng": -97.67877, 
+        "message": "RIO VISTA PARTNERS LTD ENCLOSED STRUCTURE OVER CLO<br>2104 E ANDERSON LN AUSTIN TX 78752"
+    }, 
+    "solid_waste31": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.33917, 
+        "layer": "solid_waste", 
+        "lng": -97.63139, 
+        "message": "AUSTIN COMMUNITY LANDFILL POWER STATION<br>  AUSTIN TX 78754"
+    }, 
+    "solid_waste32": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.33917, 
+        "layer": "solid_waste", 
+        "lng": -97.63139, 
+        "message": "AUSTIN COMMUNITY LANDFILL POWER STATION<br>  AUSTIN TX 78754"
+    }, 
+    "solid_waste33": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.32498, 
+        "layer": "solid_waste", 
+        "lng": -97.77229, 
+        "message": "CITY OF AUSTIN<br>1901 E 51ST ST AUSTIN TX 78723"
+    }, 
+    "solid_waste34": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.4175, 
+        "layer": "solid_waste", 
+        "lng": -97.70806, 
+        "message": "COMPLETE LIQUID SOLUTIONS LLC<br>  AUSTIN TX 78759"
+    }, 
+    "solid_waste35": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.32498, 
+        "layer": "solid_waste", 
+        "lng": -97.77229, 
+        "message": "IRI GROUP LLC<br>  AUSTIN TX  "
+    }, 
+    "solid_waste36": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.20278, 
+        "layer": "solid_waste", 
+        "lng": -94.71917, 
+        "message": "ROUND 2 TECHNOLOGIES INC<br>6301 E STASSNEY LN AUSTIN TX 78744"
+    }, 
+    "solid_waste37": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.2, 
+        "layer": "solid_waste", 
+        "lng": -97.9, 
+        "message": "TOM DYE CONTRACTOR<br>  AUSTIN TX 78738"
+    }, 
+    "solid_waste4": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.33369, 
+        "layer": "solid_waste", 
+        "lng": -97.63354, 
+        "message": "STERLING COUNTY LANDFILL<br>PO BOX 668 COUNTY COURTHOUSE AUSTIN TX 76951"
+    }, 
+    "solid_waste5": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.33474, 
+        "layer": "solid_waste", 
+        "lng": -97.63405, 
+        "message": "TRAVIS COUNTY LANDFILL<br>PO BOX 1748 AUSTIN TX 78767"
+    }, 
+    "solid_waste6": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.51579, 
+        "layer": "solid_waste", 
+        "lng": -97.86619, 
+        "message": "TRAVIS COUNTY PRECINCT 2 LANDFILL<br>6500 BURNET LANE AUSTIN TX 78757"
+    }, 
+    "solid_waste7": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.41302, 
+        "layer": "solid_waste", 
+        "lng": -97.74305, 
+        "message": "WILEY AND HOWARD PRINGLE LANDFILL<br>5206 WIND RIVER RD AUSTIN TX 78759"
+    }, 
+    "solid_waste8": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.15579, 
+        "layer": "solid_waste", 
+        "lng": -97.67473, 
+        "message": "CITY OF AUSTIN LANDFILL<br>10108 FM 812 AUSTIN TX 78716"
+    }, 
+    "solid_waste9": {
+        "icon": {
+            "icon": "trash", 
+            "iconColor": "white", 
+            "markerColor": "brown", 
+            "prefix": "fa", 
+            "type": "awesomeMarker"
+        }, 
+        "lat": 30.33057, 
+        "layer": "solid_waste", 
+        "lng": -97.81644, 
+        "message": "ST STEPHENS EPISCOPAL SCHOOL LANDFILL<br>2900 BUNNY RUN AUSTIN TX 78746"
+    }
+}

@@ -1,0 +1,495 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "2cgz-29c8",
+      "name" : "Austin's Small Scale Green Infrastructure",
+      "attribution" : "Watershed Protection Education",
+      "attributionLink" : "http://www.austintexas.gov/department/watershed-protection",
+      "averageRating" : 0,
+      "category" : "Environmental",
+      "createdAt" : 1439308652,
+      "description" : "A rain garden is a low area that absorbs and filters rain water runoff that comes from roofs, sidewalks, and driveways. Rain runs off the hard surfaces, collects in the shallow depression, and slowly soaks into the soil.  They are usually planted with colorful native plants and grasses. Every little bit helps to conserve water.  Currently we are tracking rain garden bioswale, cistern, and green roofs.",
+      "displayType" : "table",
+      "downloadCount" : 71,
+      "indexUpdatedAt" : 1460398142,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 12820762,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1460380517,
+      "publicationGroup" : 3948137,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1460380491,
+      "rowsUpdatedBy" : "2z47-i38b",
+      "tableId" : 3973166,
+      "totalTimesRated" : 0,
+      "viewCount" : 270,
+      "viewLastModified" : 1460380517,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 217362503,
+        "name" : "Type of Green Infrastructure",
+        "dataTypeName" : "text",
+        "fieldName" : "type_of_green_infrastructure",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 30460596,
+        "width" : 436,
+        "cachedContents" : {
+          "non_null" : 68,
+          "smallest" : "Green Roof",
+          "null" : 0,
+          "largest" : "Vegetated Filter Strip",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Rain Garden"
+          }, {
+            "count" : 19,
+            "item" : "Rain Barrel"
+          }, {
+            "count" : 18,
+            "item" : "Rain Barrel / Cistern"
+          }, {
+            "count" : 17,
+            "item" : "Porous Pavement"
+          }, {
+            "count" : 16,
+            "item" : "Green Roof"
+          }, {
+            "count" : 15,
+            "item" : "Vegetated Filter Strip"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 217362516,
+        "name" : "Zip",
+        "dataTypeName" : "number",
+        "fieldName" : "zip",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 30460597,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 68,
+          "smallest" : "78701",
+          "sum" : "5353113",
+          "null" : 0,
+          "average" : "78722.25",
+          "largest" : "78757",
+          "top" : [ {
+            "count" : 20,
+            "item" : "78704"
+          }, {
+            "count" : 19,
+            "item" : "78756"
+          }, {
+            "count" : 18,
+            "item" : "78745"
+          }, {
+            "count" : 17,
+            "item" : "78757"
+          }, {
+            "count" : 16,
+            "item" : "78731"
+          }, {
+            "count" : 15,
+            "item" : "78701"
+          }, {
+            "count" : 14,
+            "item" : "78723"
+          }, {
+            "count" : 13,
+            "item" : "78702"
+          }, {
+            "count" : 12,
+            "item" : "78752"
+          }, {
+            "count" : 11,
+            "item" : "78753"
+          }, {
+            "count" : 10,
+            "item" : "78724"
+          }, {
+            "count" : 9,
+            "item" : "78741"
+          }, {
+            "count" : 8,
+            "item" : "78749"
+          }, {
+            "count" : 7,
+            "item" : "78727"
+          }, {
+            "count" : 6,
+            "item" : "78739"
+          }, {
+            "count" : 5,
+            "item" : "78705"
+          }, {
+            "count" : 4,
+            "item" : "78746"
+          }, {
+            "count" : 3,
+            "item" : "78733"
+          }, {
+            "count" : 2,
+            "item" : "78703"
+          }, {
+            "count" : 1,
+            "item" : "78748"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 217362526,
+        "name" : "location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 3,
+        "renderTypeName" : "location",
+        "tableColumnId" : 30460598,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 68,
+          "smallest" : {
+            "longitude" : "-97.750203",
+            "latitude" : "30.268483",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : "-97.748157",
+            "latitude" : "30.273563",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78757\"}"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-97.7429227",
+              "latitude" : "30.2923126",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78705\"}"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-97.757597",
+              "latitude" : "30.234248",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-97.7401715",
+              "latitude" : "30.2759817",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-97.746122",
+              "latitude" : "30.285155",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78705\"}"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-97.745926",
+              "latitude" : "30.25585",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : "-97.829875",
+              "latitude" : "30.298552",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78746\"}"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : "-97.706748",
+              "latitude" : "30.3034015",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78723\"}"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : "-97.7399552",
+              "latitude" : "30.259563",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : "-97.739552",
+              "latitude" : "30.264434",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : "-97.841095",
+              "latitude" : "30.314191",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78733\"}"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "longitude" : "-97.74445",
+              "latitude" : "30.264554",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "longitude" : "-97.743826",
+              "latitude" : "30.292365",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78705\"}"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "longitude" : "-97.754131",
+              "latitude" : "30.269177",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78703\"}"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "longitude" : "-97.7636729",
+              "latitude" : "30.3075788",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78703\"}"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "longitude" : "-97.7438593",
+              "latitude" : "30.291367",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78705\"}"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "longitude" : "-97.824793",
+              "latitude" : "30.160417",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78748\"}"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "longitude" : "-97.730038",
+              "latitude" : "30.259735",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78702\"}"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "longitude" : "-97.682074",
+              "latitude" : "30.256748",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78721\"}"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "longitude" : "-97.774649",
+              "latitude" : "30.252763",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : "-97.748188",
+              "latitude" : "30.332804",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}"
+            }
+          } ]
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Additional Information" : {
+            "Frequency" : "Quarterly",
+            "Department" : "Watershed Protection"
+          },
+          "Catalog" : {
+            "Dataset Page" : ""
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "page" : true,
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "2z47-i38b",
+        "displayName" : "Watershed Education",
+        "roleName" : "publisher",
+        "screenName" : "Watershed Education",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "2z47-i38b",
+        "displayName" : "Watershed Education",
+        "roleName" : "publisher",
+        "screenName" : "Watershed Education",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs" ]
+      },
+      "tags" : [ "garden bioswale", "cistern", "and green roofs", "small scale green infrastructures" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 2, "51F72437-FD21-4F8D-ABFC-4980C89F6822", 2, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78756", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78756\"}", "30.324683", "-97.733944", null, false ] ]
+, [ 3, "64D73014-9491-4717-974B-835562AD82EF", 3, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78745", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78745\"}", "30.201632", "-97.822351", null, false ] ]
+, [ 4, "7AC56DC0-4F49-411C-A4AC-32320480D668", 4, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78704", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}", "30.250074", "-97.759873", null, false ] ]
+, [ 5, "FCA75C7B-6C51-4EA5-BF97-0BBD34B5D8FB", 5, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78757\"}", "30.273563", "-97.748157", null, false ] ]
+, [ 6, "54EAE9AE-F6BB-4D08-A1F2-B16DAAC51627", 6, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78731", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78731\"}", "30.308467", "-97.754288", null, false ] ]
+, [ 7, "384323DF-7F2B-4B6A-8722-59B6F4C6CAF7", 7, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78757\"}", "30.3441356", "-97.725226", null, false ] ]
+, [ 8, "62AAD226-B26C-41B1-A719-0B7EFA5D318E", 8, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78701", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}", "30.268483", "-97.750203", null, false ] ]
+, [ 9, "4AD82F95-5216-4844-B610-A45E485BF5B4", 9, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78701", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}", "30.28157", "-97.745344", null, false ] ]
+, [ 10, "5114A175-DCBB-490D-8FE1-CC3C85FA0201", 10, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78704", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}", "30.244449", "-97.745328", null, false ] ]
+, [ 11, "039191A7-38E9-4F8C-91B1-E7E22E2A0F4D", 11, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78723", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78723\"}", "30.301855", "-97.691543", null, false ] ]
+, [ 12, "7E6B5632-2D38-4E89-9F1E-D6B2460E3784", 12, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78704", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}", "30.248301", "-97.762093", null, false ] ]
+, [ 14, "E09B9687-50F6-498C-88EF-1B1E040050A6", 14, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78704", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}", "30.307761", "-97.753401", null, false ] ]
+, [ 15, "AC15D941-23F4-4757-97C3-E79B104B965F", 15, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78704", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}", "30.252822", "-97.75695", null, false ] ]
+, [ 16, "6412B56A-C7E6-4F8C-9F66-9A5A70A91FCB", 16, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78702", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78702\"}", "30.307764", "-97.753401", null, false ] ]
+, [ 17, "DBA6BD12-28B6-4630-83F8-2B813B2B0198", 17, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78752", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78752\"}", "30.333291", "-97.693508", null, false ] ]
+, [ 18, "DE627596-30D0-4AEA-9FD2-4EF990A9B11E", 18, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78753", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78753\"}", "30.354549", "-97.679377", null, false ] ]
+, [ 19, "B611751F-BCA2-4EBF-BF2A-7B01805220A0", 19, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78724", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78724\"}", "30.30114", "-97.646591", null, false ] ]
+, [ 20, "2B71FDF1-E50D-4D29-B48A-64F3B75750E4", 20, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78724", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78724\"}", "30.311296", "-97.640729", null, false ] ]
+, [ 21, "BA19F3C8-639E-4F57-80A0-F28A349D885B", 21, 1439308654, "644770", 1439308654, "644770", null, "Rain Barrel", "78702", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78702\"}", "30.28156", "-97.705411", null, false ] ]
+, [ 22, "8C4DD977-8AF4-43D5-8349-CC4114A32D50", 22, 1439308654, "644770", 1439308654, "644770", null, "Rain Barrel", "78702", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78702\"}", "30.28157", "-97.705384", null, false ] ]
+, [ 23, "C69AA251-E5BC-4A50-B157-1542C768FC96", 23, 1439308654, "644770", 1439308654, "644770", null, "Rain Barrel", "78702", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78702\"}", "30.281548", "-97.705402", null, false ] ]
+, [ 24, "02B60949-5D8D-4BA3-8CED-83061A39A153", 24, 1439308654, "644770", 1439308654, "644770", null, "Rain Barrel", "78702", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78702\"}", "30.281552", "-97.705397", null, false ] ]
+, [ 25, "22BF386F-998B-4A8F-8D62-720E96D59481", 25, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78757\"}", "30.346636", "-97.736538", null, false ] ]
+, [ 26, "C923D75A-20C8-4B91-A0C6-EA0720BF4325", 26, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78741", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78741\"}", "30.215378", "-97.747164", null, false ] ]
+, [ 27, "C1AB70AC-C7D7-49AA-A642-88E02DFAC8E6", 27, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78749", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78749\"}", "30.232594", "-97.840521", null, false ] ]
+, [ 28, "0775EAD7-DE1F-4D1E-9745-555BFE125429", 28, 1439308654, "644770", 1439308654, "644770", null, "Rain Barrel / Cistern", "78749", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78749\"}", "30.196452", "-97.775354", null, false ] ]
+, [ 29, "C079B265-5410-4999-9A1D-AC5CDA99D3D6", 29, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78749", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78749\"}", "30.196406", "-97.774941", null, false ] ]
+, [ 30, "C9886A0D-BECD-4E82-8D88-663C8EBFAD99", 30, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78757\"}", "30.337477", "-97.75132", null, false ] ]
+, [ 31, "0DEFB22C-A6AD-41C9-8A83-DBC6B34209E3", 31, 1439308654, "644770", 1439308654, "644770", null, "Porous Pavement", "78702", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78702\"}", "30.268823", "-97.726454", null, false ] ]
+, [ 32, "E962F231-9259-4C43-892D-74D8A91F4CB4", 32, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78727", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78727\"}", "30.422591", "-97.685299", null, false ] ]
+, [ 33, "87AA23C4-4629-45FA-8485-23D63872E84C", 33, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78757\"}", "30.3625962", "-97.7363959", null, false ] ]
+, [ 34, "B8CB2610-B4E7-4669-B71A-39FF314F6F72", 34, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78757\"}", "30.3625862", "-97.7364959", null, false ] ]
+, [ 35, "D4DFC486-8796-4AEB-86B2-4CEF207C2791", 35, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78701", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}", "30.271872", "-97.748932", null, false ] ]
+, [ 36, "63E3ACB8-C40B-4F80-A4DB-26C2C948AAFF", 36, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78757\"}", "30.3641159", "-97.735438", null, false ] ]
+, [ 37, "C57730F2-4B4C-4FFF-9BBF-5A88CDA62B94", 37, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78757\"}", "30.364078", "-97.735538", null, false ] ]
+, [ 38, "ACC59410-5E65-4058-86A9-7F36EBB2F2AB", 38, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78701", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}", "30.271755", "-97.748778", null, false ] ]
+, [ 39, "5229B573-22DD-45C7-986D-7C43E20F7ACE", 39, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78739", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78739\"}", "30.185384", "-97.873197", null, false ] ]
+, [ 40, "225A9A28-6002-4ABE-96B6-CD5D2C297991", 40, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78723", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78723\"}", "30.3048426", "-97.7059259", null, false ] ]
+, [ 41, "2E2CC439-ED5C-4F1B-9787-5B251616C600", 41, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78749", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78749\"}", "30.203453", "-97.879033", null, false ] ]
+, [ 42, "36EFF065-E94A-4777-9ECA-DC89D208F00D", 42, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78705", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78705\"}", "30.2923126", "-97.7429227", null, false ] ]
+, [ 43, "868559F7-CB89-4A8F-BD89-78487A7C73A8", 43, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78704", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}", "30.234248", "-97.757597", null, false ] ]
+, [ 44, "0C81D7C8-C294-4B70-87CD-1B686DED05E0", 44, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78701", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}", "30.2759817", "-97.7401715", null, false ] ]
+, [ 45, "C911C862-8F2C-46C0-B95F-A48F6A9465B9", 45, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78705", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78705\"}", "30.285155", "-97.746122", null, false ] ]
+, [ 46, "C641BB6C-19EE-43FF-8E70-89FB99035F2C", 46, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78704", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}", "30.25585", "-97.745926", null, false ] ]
+, [ 47, "C2F53619-0577-443B-B52A-76A792F8E836", 47, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78746", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78746\"}", "30.298552", "-97.829875", null, false ] ]
+, [ 48, "C2F2521F-A8EF-456F-9ABA-447C59C228DC", 48, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78723", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78723\"}", "30.3034015", "-97.706748", null, false ] ]
+, [ 49, "283E5830-506C-415E-83A6-CB36A5693613", 49, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78701", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}", "30.259563", "-97.7399552", null, false ] ]
+, [ 50, "3612C6C5-7FA3-4D46-B5E3-41663ABA6B98", 50, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78701", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}", "30.264434", "-97.739552", null, false ] ]
+, [ 51, "9E19E4F9-F6F7-4A7C-BD88-ECDBF7EFCDC3", 51, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78733", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78733\"}", "30.314191", "-97.841095", null, false ] ]
+, [ 52, "207F0925-7184-45CA-A75A-5DE25D098379", 52, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78701", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78701\"}", "30.264554", "-97.74445", null, false ] ]
+, [ 53, "34B04093-45B3-4137-B1E8-74B9D011EA85", 53, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78705", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78705\"}", "30.292365", "-97.743826", null, false ] ]
+, [ 54, "74DE1873-3367-40B8-852B-4DD87D20002C", 54, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78703", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78703\"}", "30.269177", "-97.754131", null, false ] ]
+, [ 55, "46CAA75F-09E4-43CE-A208-146FE35207FB", 55, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78703", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78703\"}", "30.3075788", "-97.7636729", null, false ] ]
+, [ 56, "081605C1-2AC5-4497-9E30-C7F433F78798", 56, 1439308654, "644770", 1439308654, "644770", null, "Green Roof", "78705", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78705\"}", "30.291367", "-97.7438593", null, false ] ]
+, [ 57, "C3C466A5-9428-4A8A-84FE-F858A01F0123", 57, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78748", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78748\"}", "30.160417", "-97.824793", null, false ] ]
+, [ 58, "945E5A12-FAA4-4612-9078-7C78DBE7F09D", 58, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78702", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78702\"}", "30.259735", "-97.730038", null, false ] ]
+, [ 59, "345D9134-46DE-4A65-92B1-31E8906411F6", 59, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78721", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78721\"}", "30.256748", "-97.682074", null, false ] ]
+, [ 60, "59748CBE-1841-48A9-8892-DFEC901BCE2D", 60, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78704", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}", "30.252763", "-97.774649", null, false ] ]
+, [ 61, "9D6914AF-E23F-4671-A6A0-C80B8B8C152B", 61, 1439308654, "644770", 1439308654, "644770", null, "Vegetated Filter Strip", "78704", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}", "30.332804", "-97.748188", null, false ] ]
+, [ 62, "CFA33FA2-5C12-4553-88D4-0EBD05AC08BA", 62, 1439308654, "644770", 1439308654, "644770", null, "Rain Barrel / Cistern", "78749", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78749\"}", "30.206622", "-97.855134", null, false ] ]
+, [ 63, "388D83FB-B90B-41DF-A1B7-CE2256E85034", 63, 1439308654, "644770", 1439308654, "644770", null, "Rain Garden", "78723", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78723\"}", "30.313577", "-97.680732", null, false ] ]
+, [ 1, "14FCBA37-15D5-48C9-BE64-15C0C04CEF5A", 1, 1439308654, "644770", 1439308959, "644770", null, "Rain Garden", "78704", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}", "30.25821", "-97.74944", null, false ] ]
+, [ 13, "2221FA9A-632F-4084-9D15-319B751E7B51", 13, 1439308654, "644770", 1439496719, "644770", null, "Rain Barrel", "78704", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78704\"}", "30.248785", "-97.762463", null, false ] ]
+, [ 64, "52D83123-FD7F-42C4-A7CA-01620A14C9AC", 64, 1460380490, "644770", 1460380490, "644770", null, "Rain Garden", "78702", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78702\"}", "30.268527", "-97.72372", null, false ] ]
+, [ 65, "C58CE634-D690-4AA6-837C-AAF35D2D5C1A", 65, 1460380490, "644770", 1460380490, "644770", null, "Rain Garden", "78702", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78702\"}", "30.268697", "-97.713164", null, false ] ]
+, [ 66, "7C95716D-05BE-4B16-8909-9F24D9486547", 66, 1460380491, "644770", 1460380491, "644770", null, "Rain Garden", "78725", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78725\"}", "30.262038", "-97.67152", null, false ] ]
+, [ 67, "83E1A153-E906-437D-A4D1-921BCD98C351", 67, 1460380491, "644770", 1460380491, "644770", null, "Rain Garden", "78757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78757\"}", "30.34067", "-97.722826", null, false ] ]
+, [ 68, "80423275-6439-4004-BB8C-5BFF58A36D19", 68, 1460380491, "644770", 1460380491, "644770", null, "Rain Garden", "78702", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"78702\"}", "30.257187", "-97.719867", null, false ] ]
+ ]
+}
