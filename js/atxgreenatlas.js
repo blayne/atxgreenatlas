@@ -103,17 +103,17 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
                     visible: false
                 },
                 water_quality: {
-                    name: 'Austin Water Quality Results',
+                    name: 'Water Quality Results',
                     type: 'markercluster',
                     visible: false
                 },
                 air_quality : {
-                    name: 'Austin Air Quality Results',
+                    name: 'Air Quality Results',
                     type: 'group',
                     visible: false
                 },
                 greenhouse_gas : {
-                    name: 'Austin Greenhouse Gas Emissions',
+                    name: 'Greenhouse Gas Emissions',
                     type: 'markercluster',
                     visible: false
                 },
@@ -128,7 +128,7 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
                     visible: false
                 },
                 rainGardens : {
-                    name: 'Austin Rain Gardens',
+                    name: 'Rain Gardens',
                     type: 'group',
                     visible: false
                 },

@@ -36,10 +36,9 @@ for row in dataIn["data"]:
 		buildingJson['message'] = str(row[12])
 		buildingJson['type'] = 'polygon'
 		buildingJson['latlngs'] = latlangs
-		buildingJson['color'] = '#B0A3FC'
-		buildingJson['weight'] =  1.0
+		buildingJson['color'] = '#000'
+		buildingJson['weight'] =  3.0
 		buildingJson['opacity'] = 1.0
-		buildingJson['fillOpacity'] = 0.25
 
 		
 		#create the entry for this row's json and add it to the dataOut json object (dictionary)
