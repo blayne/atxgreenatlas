@@ -34,7 +34,7 @@ for row in dataIn["data"]:
 		buildingJson = {}
 		buildingJson['layer'] = 'zips'
 		buildingJson['message'] = str(row[12])
-		buildingJson['type'] = 'polygon'
+		buildingJson['type'] = 'polyline'
 		buildingJson['latlngs'] = latlangs
 		buildingJson['color'] = '#000'
 		buildingJson['weight'] =  3.0
