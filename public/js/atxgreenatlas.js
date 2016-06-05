@@ -15,6 +15,8 @@ var app = angular.module("atxgreenatlas", ['leaflet-directive', 'angularModalSer
 //create our map controller for leaflet with the http service attached
 app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope, $http, ModalService) {
 
+    $scope.loading = true;
+
     $scope.$on('leafletDirectiveMarker.click', function (e, args) {
         if(args.layerName == 'water_quality'){
             ModalService.showModal({
@@ -109,7 +111,7 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
                 },
                 air_quality : {
                     name: 'Air Quality Results',
-                    type: 'group',
+                    type: 'markercluster',
                     visible: false
                 },
                 greenhouse_gas : {
@@ -124,17 +126,17 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
                 },
                 solid_waste: {
                     name: 'Solid Waste Sites',
-                    type: 'group',
+                    type: 'markercluster',
                     visible: false
                 },
                 rainGardens : {
                     name: 'Rain Gardens',
-                    type: 'group',
+                    type: 'markercluster',
                     visible: false
                 },
                 bicycle : {
                     name: 'B-Cycle stations',
-                    type: 'group',
+                    type: 'markercluster',
                     visible: false
                 }
             }
@@ -180,7 +182,10 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
             angular.forEach(data, function(value, key) {
                 $scope.markers[key] = value;
             })
-        });
+        })
+       .then(function(){
+            $scope.loading = false;
+       });
 
     //parsed dataset for the Greenhouse Gas Emissions Results layer
     $http.get('data/greenHouseOut.json') 
@@ -286,8 +291,8 @@ app.controller("map-canvas", [ "$scope","$http","ModalService", function($scope,
             angular.forEach(data, function(value, key) {
                 $scope.paths[key] = value;
             })
-        });
-        
+        })
+    
 }]);
 
 app.controller('AQModalController', function($scope, head, data, close) {

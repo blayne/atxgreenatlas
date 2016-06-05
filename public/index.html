@@ -63,6 +63,10 @@
   </head>
 
   <body ng-controller="map-canvas">
+    <div id="loadingScreen"  ng-show="loading">
+      <img id="loadingScreenPic" src="./atxgreen_icons/ATXGreenAtlas-Logo.png">
+    </div>
+    
     <div class='map'>
       <leaflet width="100%" height="100%" center='austin' layers="layers" markers="markers" paths="paths" controls="controls"></leaflet>
     </div>
